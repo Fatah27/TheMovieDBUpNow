@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context="com.mobile.fatah.themoviedbupnow.activity.DetailActivity">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+        <ImageView
+            android:id="@+id/image_Poster"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/title_Movie"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:textColor="#000"
+            android:textSize="@dimen/textSize"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
